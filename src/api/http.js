@@ -13,7 +13,12 @@ console.log(
 // export const canvases = create(
 //   'https://json-server-vercel-dusky-eta.vercel.app/canvases/',
 // );
+
+// );
+// export const canvases = create(
+//   `${import.meta.env.VITE_API_BACE_URL}/canvases/`,
+// );
+// export const canvases = create('http://localhost:8000/canvases/');
 export const canvases = create(
   `${import.meta.env.VITE_API_BACE_URL}/canvases/`,
 );
-// export const posts = create('http://localhost:8000/posts/');
